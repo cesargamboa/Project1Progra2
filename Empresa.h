@@ -12,8 +12,11 @@ private:
 	Lista listaEmpleados;
 
 public:
-	Empresa();
+	Empresa(std::string, std::string, std::string);
 	void agregarEmpleado(EmpleadoBase* empleado);
+	// segun el enunciado, unicamente estos atributos se pueden actualizar
+	void setNuevoTelefono(std::string);
+	void setNuevaDireccion(std::string);
 	void mostrarListaDeEmpleados();
 	~Empresa();
 };

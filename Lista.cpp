@@ -31,6 +31,8 @@ void Lista::AddNode(EmpleadoBase* addData) {
 void Lista::imprimirResultados() {
 	curr = head;
 	while (curr != NULL) {
+		// crear una funcion virtual
+		// implementar calculo de salario distinto segun la funcion y el tipo de empleado
 		curr->empleado->toString();
 		curr = curr->next;
 	}

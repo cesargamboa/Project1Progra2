@@ -10,10 +10,10 @@ int main()
 	EmpleadoPlanilla empleado;
 	EmpleadoServiciosProfesionales empleado2;
 
-	Empresa systemsCompany;
-	systemsCompany.agregarEmpleado(&empleado);
-	systemsCompany.agregarEmpleado(&empleado2);
-	systemsCompany.mostrarListaDeEmpleados();
+	Empresa company("Smart-System", "Heredia", "666-666-6666");
+	company.agregarEmpleado(&empleado);
+	company.agregarEmpleado(&empleado2);
+	company.mostrarListaDeEmpleados();
 	
 	return 0;
 
