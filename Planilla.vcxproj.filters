@@ -27,6 +27,12 @@
     <ClCompile Include="Empresa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EmpleadoPlanilla.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmpleadoServiciosProfesionales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EmpleadoBase.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Empresa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpleadoPlanilla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmpleadoServiciosProfesionales.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

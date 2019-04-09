@@ -119,12 +119,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EmpleadoBase.cpp" />
+    <ClCompile Include="EmpleadoPlanilla.cpp" />
+    <ClCompile Include="EmpleadoServiciosProfesionales.cpp" />
     <ClCompile Include="Empresa.cpp" />
     <ClCompile Include="Lista.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EmpleadoBase.h" />
+    <ClInclude Include="EmpleadoPlanilla.h" />
+    <ClInclude Include="EmpleadoServiciosProfesionales.h" />
     <ClInclude Include="Empresa.h" />
     <ClInclude Include="Lista.h" />
   </ItemGroup>

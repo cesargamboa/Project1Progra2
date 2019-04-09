@@ -1,5 +1,4 @@
-﻿  EmpleadoBase.cpp
-  Lista.cpp
+﻿  EmpleadoServiciosProfesionales.cpp
   main.cpp
 c:\users\cesar\documents\proyecto1cesar\planilla\planilla\main.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 c:\users\cesar\documents\proyecto1cesar\planilla\planilla\main.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
