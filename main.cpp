@@ -1,13 +1,15 @@
 #include <iostream>
 #include "EmpleadoBase.h"
 #include "Lista.h";
+#include "Empresa.h";
+#include <iostream>
 int main()
 {
 	EmpleadoBase empleado;
-	Lista nueva;
-
-	nueva.AddNode(&empleado);
-
-	nueva.imprimirResultados();
+	Empresa systemsCompany;
+	systemsCompany.agregarEmpleado(&empleado);
+	systemsCompany.mostrarListaDeEmpleados();
+	
+	return 0;
 
 }
